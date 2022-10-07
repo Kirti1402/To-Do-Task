@@ -8,13 +8,14 @@
 }
 h1{
     color: beige;
+    margin: 10px;
 }
 .center-container{
     border-radius:10px;
     position: absolute;
     border: 2px solid;
-    width: 25%;
-    height: 50vh;
+    width: 30%;
+    height: 80vh;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);

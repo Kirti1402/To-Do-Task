@@ -38,6 +38,7 @@ if(toDoInput.value == ''){
     delBtn.setAttribute('value',countLi)
     addToList.appendChild(newTaskList);
     toDoInput.value=''
+    AddBtn.setAttribute('disabled',true);
     // deleteBtn = document.querySelector('#del-btn');
     delBtn.addEventListener('click',() =>removeTask(newTaskList,delBtn));
     countLi++
